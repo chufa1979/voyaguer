@@ -164,7 +164,8 @@ return [
         ],
 
         'widgets' => [
-
+            'TCG\\Voyager\\Widgets\\UserDimmer',
+            //'App\\Widgets\\ProductosDimmer',
         ],
 
     ],
@@ -211,7 +212,8 @@ return [
     ],
 
     'additional_js' => [
-        //'js/custom.js',
+        //'https://cloud.tinymce.com/stable/tinymce.min.js',
+        //'/vendor/tcg/voyager/assets/js/tiny.js',
     ],
 
     'googlemaps' => [
